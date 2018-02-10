@@ -1,0 +1,33 @@
+info from: http://www.wibblystuff.xyz/2010/02/edit-java-applications-in-mobile.html
+
+
+We need not have a PC to edit or translate Java applications. We can also edit in our mobile. Even in our Nokia s40. Here I will explain how, from very beginner. Please, ignore this if you already know.
+
+JAR and ZIP:
+Java applications have an extension .jar. JAR is a ZIP archive format. So an application which can unzip a Zipped file, can also unzip a Java application. Java applications usually contain class files with many other associated files. If we can change or edit the class files and other files, then we can change an application. As any s40 application cann't access the java file system, we cannot edit files with extension .jar. So we must have the application with its extension .zip. Our Ucweb can do this. When you download an application through Ucweb, just rename it to .zip(e.g.-mini.jar to mini.zip). Now you can edit.
+
+JAR and JAD:
+Some may not know differences between .jar and .jad. Jar is Java Archive, while .jad is Java application descriptor file. So a .jad file is similar to a text file and contains informations about the .jar file. It also contains the certificate. Note that after editing a .jar file, the .jad will not work for it. s40 phones can install .jar without .jad.
+
+The class files:
+These are the files in the archive written in a programming language. There are strings inside a class file. When we translate an application, we edit the text strings. There may also be images embedded inside the class files. They can be edited by HEX editors by changing their HEX values(I cannot explain more as I don't know more). Here we'll learn to edit text strings, changing images(not embedded), changing the application name etc
+.
+The META-INF folder and MANIFEST.MF file:
+You'll see a directory named META-INF inside the archive. Inside it, there'll be a file named MANIFEST.MF which contains informations about the application, such as its name, icon, the main class file etc. It can be edited with any text editor. By editing the MIDlet-Name, you can change the name of the application. There will also be something like this
+MIDlet-1: UC7.0, /icon.png, Webclient
+If you add another like
+MIDlet-2: Ringtone Cutter, /icon.png, GameMidlet along with its class files(note that class files of any midlet shouldn't get replaced, so better to use it he class files have different names), it can have two Midlets in one application. But if there is anything wrong in the MANIFEST.MF file, then it'll become invalid.
+
+Required Applications:
+Class Editor
+Class Translator
+Class Translator Plus
+Mini Commander
+
+Changing Logo and icons:
+To change any image in an application, just replace the corresponding image with another image with same name with the help of MiniCommander. Note that the resolution should be same.
+
+Translating and editing:
+First extract the class file you want to edit or translate using MiniCommander. Then to edit strings in it, open it with Class Editor. You will see many boxes and text. You can deassemble them with Class Editor. You can also edit text strings, symbols, hex values with it. If you want to edit only the text strings, or want to translate, you can use the Class Translator. When you open a class file with it, it'll extract all text strings. Now you can easily edit and translate them. Now after making necessary changes, save it. Then add it to the archive with MiniCommander. Previous class file will be replaced with newer one. Now rename the archive to _jar with MiniCommander. Then with your phone, rename it to .jar to install.
+
+Tip: You should know the languages to translate. A solution may be Google Translate. And your phone should support the font.
