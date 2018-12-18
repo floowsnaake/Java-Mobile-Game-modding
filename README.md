@@ -1,5 +1,12 @@
+
+
+
 # Java-Mobile-Game-modding
 A place holder for me to try and mod older java mobiles 
+
+![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod1.png)
+
+![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod2.png)
 
 Name : Heroes Lore : Wind of Soltia
 Genre: RPG (Role Playing Games)
