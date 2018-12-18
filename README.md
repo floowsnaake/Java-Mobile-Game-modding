@@ -4,6 +4,13 @@
 # Java-Mobile-Game-modding
 A place holder for me to try and mod older java mobiles 
 
+This is an attempt to mod the game heroes lore wind of soltia its a its a j2ME game, a old java phone game that is being emulated with pspkvm that is a J2ME emulator for the PSP and then the PSP is being emulated on my computer and i extract the game.jar with winrar and then edit the files with hex editor and java decompiler but the java decompiler only works on the java class files not the other files
+
+this is for me to learn and also share it with other becuse there are not so much info on this that i can find online
+
+
+
+press the images to zoom in
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod1.png)
 
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod2.png)
