@@ -1,19 +1,50 @@
+# Java Mobile Game Modding
 
+Learning about modding J2ME (Old java phone games)
 
-
-# Java-Mobile-Game-modding
-A place holder for me to try and mod older java mobiles 
-
-This is an attempt to mod the game heroes lore wind of soltia its a its a j2ME game, a old java phone game that is being emulated with pspkvm that is a J2ME emulator for the PSP and then the PSP is being emulated on my computer and i extract the game.jar with winrar and then edit the files with hex editor and java decompiler but the java decompiler only works on the java class files not the other files
-
-this is for me to learn and also share it with other becuse there are not so much info on this that i can find online
-
-
+Read more how to use it further down
 
 press the images to zoom in
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod1.png)
 
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod2.png)
+
+## Latest Progress
+
+Put this file in the game jar and then start the game and talk to a trader/shop in the first town to replicate the mod test in picture 2 of the readem
+
+## Testing the mod
+
+Instructions
+
+### Prerequisites
+
+What things you need to install some software and how to install them
+
+```
+Winrar - Extracting the game.jar file
+https://www.rarlab.com
+
+HxD - Editing the.tdf files
+https://mh-nexus.de/en/hxd/
+
+PPSSPP - Running the J2ME emulator
+http://www.ppsspp.org
+
+PSPKVM - Emulating J2ME games
+https://sourceforge.net/projects/pspkvm/
+```
+
+### Using/applying mods
+
+A step by step
+
+
+```
+Open the game.jar with winrarn then extract shop.tdf and then open it with HxD then change the hex values save the file and move the saved file back to the game.jar and then restart the emulator/ppsspp
+```
+
+### Misc info
 
 Name : Heroes Lore : Wind of Soltia
 Genre: RPG (Role Playing Games)
@@ -22,12 +53,4 @@ Publisher : Hands-On Mobile
 Game Screen Download Resolution : 320x240 (Nokia X2-01, E71..and all phone with 320x240 screen resolution)
 Heroes Lore Wind Of Soltia ENG Multiscreen
 
-Bug Speed : The method is quite easy. When you leave the area (before loading), immediately press the button on the right (the button used to view character info). If successful the game speed will be around 2x than before in that area.
-Bug Fire Shield : How to cheat this bug is very easy. That is by activating the skill Hestia (lv20) before leaving the area. After the skill Hestia (lv20) has been active, leave the area to the next area. The effect of this cheat cheat is to permanently reflect enemy attacks.
-Bug Super Heal  : How to cheat this bug is very easy. That is by activating the Ran skill (lv20) before leaving the area. After the Ran (lv20) skill is active, leave the area to the next area. The effect of this cheat bug is to speed up the generation of hp & sp permanently.
-Bug Progress : This cheat progress bug is very easy. Before you use this bug cheat, you should first equip bad weapons and armor so that your good weapon is not lost. After that you save your character, before the Game Saved statement appears, immediately remove your cellphone. If successful your character will return to lv0, but the items and previous guardians still remain.
-2 Character Bug : This cheat cheat is rather complicated but profitable. How do Aramor character bugs with Progress bugs, then do it once again on the Aramor character. Then the Aramor character disappears from load. After that Reah character bug with bug progress. Then the Reah character is loaded and it will also disappear. After that you are a new game, select Reah then save. After that you choose the new game Aramor then save. Then automatically both characters will be connected. The effect of this cheat cheat is that Aramor can use the armor obtained by Reah, or vice versa.
-Auto Leveling Bug : Activate fireshield bugs, activate superheal bugs, activate speed bugs. Then look for locations where monsters often appear and shut up. Bug fire makes monsters die, heal bugs make you recover, speed bugs to spawn fast monsters.
-
-Heroes Lore : Wind of Soltia.jar
-Heroes Lore Wind of Soltia english
+Floowsnaake
