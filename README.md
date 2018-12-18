@@ -9,6 +9,15 @@ press the images to zoom in
 
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod2.png)
 
+![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod3.png)
+
+![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod4.png)
+
+
+## updates notes
+
+working on a hex reader to read the hex files and then identify what the hex numbers are for example if its 4E then that means text or something
+
 ## Latest Progress
 
 Put this file in the game jar and then start the game and talk to a trader/shop in the first town to replicate the mod test in picture 2 of the readem
