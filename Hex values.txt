@@ -1,0 +1,32 @@
+
+m folder is for sprites/top layer sprites.
+
+
+hex values
+
+m/7 folder .evt files = Map data
+hex values
+00 = Walking area
+80 = Not walking area
+01 = teleporter/next map/room/area
+
+0B = old lady dialog (09 in m/6)
+
+m/6 folder .evt files = Map data
+hex values
+00 = Walking area
+80 = Not walking area
+01 = teleporter/next map/room/area
+0E = maybe npc?
+07 = maybe npc?
+0A = ???
+FE = Shop entrance
+
+8E offset
+0A m/6 first npc by stairs to next level
+0B m/7 first npc by stairs to next level
+00 m/8 first npc by stairs to next level
+2B normal map first npc by stairs to next level
+
+00 basto
+27 The south of the jusablow desert
