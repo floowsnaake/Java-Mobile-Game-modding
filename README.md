@@ -5,7 +5,9 @@ Learning about modding J2ME (Old java phone games)
 Read more how to use it further down
 
 press the images to zoom in
-![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod1.png)
+
+Modded map example:
+![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/PSPK00673_00001.jpg)
 
 ![alt text](https://github.com/floowsnaake/Java-Mobile-Game-modding/blob/master/mod2.png)
 
